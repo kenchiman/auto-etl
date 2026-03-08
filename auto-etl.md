@@ -45,6 +45,12 @@ Excel職人や特定のエンジニアに依存し、「この人がいないと
 これが、前処理に時間がかかる最大の原因のひとつです。
 
 ## Microosoft Fabric × Azure OpenAI で実現
+データパイプラインの自動化を“現実のもの”にするのが、Microsoft Fabric と Azure OpenAI の組み合わせです。  
+Fabric が持つ統合データ基盤と、Azure OpenAI の画像入力が連携することで、これまで専門知識が必要だった 
+ETL 設計や変換ロジックの作成を、スケッチ画像の指示だけで実行できるようになります。  
+人が考えたデータの流れを AI がそのまま解釈し、パイプライン(ETL)として作成します。
+
+
 今回は、チュートリアルにある、このスケッチをパイプラインとして生成します。
 ![pipline](img/pipeline.png)
 
@@ -142,4 +148,5 @@ AIが生成したパイプラインもその構造を可視化できます。
 
 ### 参考
 - https://learn.microsoft.com/ja-jp/fabric/data-factory/image-to-pipeline-with-ai
+
 - https://blog.fabric.microsoft.com/ja-JP/blog/use-azure-openai-to-turn-whiteboard-sketches-into-data-pipelines/
